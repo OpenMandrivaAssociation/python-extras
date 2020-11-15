@@ -5,7 +5,7 @@
 
 Name:           python-%{pypi_name}
 Version:        %{version}
-Release:        2
+Release:        3
 Group:          Development/Python
 Summary:        extras is a set of extensions to the Python standard library 
 
