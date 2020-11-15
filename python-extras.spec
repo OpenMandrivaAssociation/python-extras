@@ -5,7 +5,7 @@
 
 Name:           python-%{pypi_name}
 Version:        %{version}
-Release:        3
+Release:        4
 Group:          Development/Python
 Summary:        extras is a set of extensions to the Python standard library 
 
@@ -76,8 +76,8 @@ popd
 %files
 %doc  README.rst LICENSE
 #{python_sitelib}/*/*
-%{python_sitelib}/%{module}
-%{python_sitelib}/%{module}-%{version}-py?.?.egg-info
+%{python_sitelib}/%{pypi_name}
+%{python_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
 
 
 %if %{with_python2}
