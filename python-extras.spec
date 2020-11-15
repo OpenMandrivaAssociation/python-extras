@@ -75,7 +75,9 @@ popd
 
 %files
 %doc  README.rst LICENSE
-%{python_sitelib}/*/*
+#{python_sitelib}/*/*
+%{python_sitelib}/%{module}
+%{python_sitelib}/%{module}-%{version}-py?.?.egg-info
 
 
 %if %{with_python2}
