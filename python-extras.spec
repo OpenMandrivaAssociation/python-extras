@@ -1,6 +1,6 @@
 Name:		python-extras
 Version:	1.0.0
-Release:	6
+Release:	7
 Source0:	https://files.pythonhosted.org/packages/source/e/extras/extras-%{version}.tar.gz
 Summary:	Useful extra bits for Python
 URL:		https://pypi.org/project/extras/
