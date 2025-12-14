@@ -7,6 +7,7 @@ URL:		https://pypi.org/project/extras/
 License:	MIT
 Group:		Development/Python
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:  python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description
